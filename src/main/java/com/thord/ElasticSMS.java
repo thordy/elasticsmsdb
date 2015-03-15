@@ -73,7 +73,6 @@ public class ElasticSMS {
 		// either '/full/path/to/file/sms.db' on OSX or 'C:\\\\files\\\\sms.db' on windows. Note
 		// that you need to use four backslashes to escape things properly.
 		String smsDb = "sms.db";
-		smsDb = "/Users/thord/Dropbox/usr/backup/sms2.db";
 
 		String elasticHost = "localhost";
 		int elasticPort = 9200;
